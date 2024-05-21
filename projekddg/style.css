@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('background.jpg'); /* Ganti dengan URL gambar latar belakang Anda */
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.container .login-text {
+    color: #333;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.container .login-email .input-group {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.container .login-email .input-group input {
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    background: transparent;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.container .login-email .input-group input:focus {
+    border-color: #a29bfe;
+}
+
+.container .login-email .btn {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background-color: #6c5ce7;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.container .login-email .btn:hover {
+    background-color: #a29bfe;
+    transform: translateY(-3px);
+}
+
+.login-register-text {
+    color: #333;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #6c5ce7;
+    transition: color 0.3s;
+}
+
+.login-register-text a:hover {
+    color: #a29bfe;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.container-login-email .input-group .btn {
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login-email .input-group .btn:hover {
+    transform: translate(-5px);
+    background: #6c5ce7;
+}
